@@ -1,30 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# The Next.js Template &middot; [![Version Badge](https://img.shields.io/badge/version-1.0.0-brightgreen)](#)
+
+An Next.js starter project that works with [Docker](https://www.docker.com/), [Docker Compose](https://docs.docker.com/compose/),
+and [Shipyard](https://shipyard.build) out of the box.
+
+## Includes
+
+- [Next.js](https://github.com/vercel/next.js/) - React framework
+for production grade apps that scale
+- [Typescript](https://github.com/microsoft/TypeScript) - typed superset of JavaScript that compiles to plain JavaScript
+- [Material-UI](https://github.com/mui-org/material-ui) - React components for faster and simpler web development
+
+## Dependencies
+
+- [Docker](https://www.docker.com/) & [Docker Compose](https://docs.docker.com/compose/) - to build and run the app
+- [Make](https://www.gnu.org/software/make/manual/make.html) - to easily run commands needed for development
 
 ## Getting Started
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Run `make develop` at the root of this project.
+- Visit the app at http://localhost:3000.
+- Make your code changes! The app will reload whenever you save.
