@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Box from '@material-ui/core/Box'
 import Container from '@material-ui/core/Container'
-import Link from '@material-ui/core/Link'
+import MuiLink from '@material-ui/core/Link'
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
 import { makeStyles } from '@material-ui/core/styles'
@@ -46,7 +46,7 @@ const useStyles = makeStyles({
     padding: '0.75rem',
     fontSize: '1.1rem',
     fontFamily: ['Menlo', 'Monaco', 'Lucida Console', 'Liberation Mono',
-    'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', 'monospace'].join(',')
+    'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', 'monospace'].join(','),
   },
   grid: {
     display: 'flex',
@@ -101,7 +101,7 @@ const useStyles = makeStyles({
   },
   logo: {
     height: '1em',
-  }
+  },
 })
 
 export default function Home() {
@@ -115,7 +115,7 @@ export default function Home() {
 
       <Box className={classes.main} component="main">
         <Typography component="h1" className={classes.title}>
-          Welcome to <Link href="https://nextjs.org">Next.js!</Link>
+          Welcome to <MuiLink href="https://nextjs.org">Next.js!</MuiLink>
         </Typography>
 
         <Typography component="p" className={classes.description}>
@@ -125,31 +125,31 @@ export default function Home() {
 
         <Grid className={classes.grid} container spacing={0}>
           <Grid item xs={12} sm={6}>
-            <Link href="https://nextjs.org/docs" className={classes.card}>
+            <MuiLink href="https://nextjs.org/docs" className={classes.card}>
               <Typography component="h3">Documentation &rarr;</Typography>
               <Typography>Find in-depth information about Next.js features and API.</Typography>
-            </Link>
+            </MuiLink>
           </Grid>
 
           <Grid item xs={12} sm={6}>
-            <Link href="https://nextjs.org/learn" className={classes.card}>
+            <MuiLink href="https://nextjs.org/learn" className={classes.card}>
               <Typography component="h3">Learn &rarr;</Typography>
               <Typography>Learn about Next.js in an interactive course with quizzes!</Typography>
-            </Link>
+            </MuiLink>
           </Grid>
 
           <Grid item xs={12} sm={6}>
-            <Link
+            <MuiLink
               href="https://github.com/vercel/next.js/tree/master/examples"
               className={classes.card}
             >
               <Typography component="h3">Examples &rarr;</Typography>
               <Typography>Discover and deploy boilerplate example Next.js projects.</Typography>
-            </Link>
+            </MuiLink>
           </Grid>
 
           <Grid item xs={12} sm={6}>
-            <Link
+            <MuiLink
               href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
               className={classes.card}
             >
@@ -157,21 +157,21 @@ export default function Home() {
               <Typography>
                 Instantly deploy your Next.js site to a public URL with Vercel.
               </Typography>
-            </Link>
+            </MuiLink>
           </Grid>
 
           <Grid item xs={12} sm={6}>
-            <Link
+            <MuiLink
               href="https://github.com/vercel/next.js/tree/master/examples"
               className={classes.card}
             >
               <Typography component="h3">TypeScript &rarr;</Typography>
               <Typography>Add optional static typing to catch errors before running code.</Typography>
-            </Link>
+            </MuiLink>
           </Grid>
 
           <Grid item xs={12} sm={6}>
-            <Link
+            <MuiLink
               href="https://nextjs.org/docs/basic-features/typescript"
               className={classes.card}
             >
@@ -179,20 +179,20 @@ export default function Home() {
               <Typography>
                 React components for faster and easier web development.
               </Typography>
-            </Link>
+            </MuiLink>
           </Grid>
         </Grid>
       </Box>
 
       <Box component="footer" className={classes.footer}>
-        <Link
+        <MuiLink
           href="https://material-ui.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by{' '}
           <img src="/vercel.svg" alt="Vercel Logo" className={classes.logo} />
-        </Link>
+        </MuiLink>
       </Box>
     </Container>
   )
