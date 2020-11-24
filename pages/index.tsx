@@ -107,7 +107,7 @@ const useStyles = makeStyles({
 export default function Home() {
   const classes = useStyles()
   return (
-    <Container className={classes.container}>
+    <Container maxWidth="false" className={classes.container}>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
