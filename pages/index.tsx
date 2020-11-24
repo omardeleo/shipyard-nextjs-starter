@@ -40,6 +40,7 @@ const useStyles = makeStyles({
   description: {
     lineHeight: '1.5',
     fontSize: '1.5rem',
+    textAlign: 'center',
   },
   code: {
     background: '#fafafa',
