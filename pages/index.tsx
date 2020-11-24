@@ -28,6 +28,7 @@ const useStyles = makeStyles({
     lineHeight: '1.15',
     fontSize: '4rem',
     fontWeight: 'bold',
+    textAlign: 'center',
     '& a': {
       color: '#0070f3',
       textDecoration: 'none',
