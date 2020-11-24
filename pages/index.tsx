@@ -164,7 +164,7 @@ export default function Home() {
 
           <Grid item xs={12} sm={6}>
             <MuiLink
-              href="https://github.com/vercel/next.js/tree/master/examples"
+              href="https://nextjs.org/docs/basic-features/typescript"
               className={classes.card}
             >
               <Typography component="h3">TypeScript &rarr;</Typography>
@@ -174,7 +174,7 @@ export default function Home() {
 
           <Grid item xs={12} sm={6}>
             <MuiLink
-              href="https://nextjs.org/docs/basic-features/typescript"
+              href="https://material-ui.com/"
               className={classes.card}
             >
               <Typography component="h3">Material-UI &rarr;</Typography>
@@ -188,7 +188,7 @@ export default function Home() {
 
       <Box component="footer" className={classes.footer}>
         <MuiLink
-          href="https://material-ui.com/"
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
